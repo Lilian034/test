@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member</title>
+    <link rel="stylesheet" href="../assets/css/hf.css">
+    <link rel="stylesheet" href="../assets/css/member.css">
+</head>
+<body>
+    <header>
+        <div class="flex">
+          <h1 class="title"><a href="../pages/index.html">Maisie</a></h1>
+            <div class="flex1">
+                <div class="box">
+                    <div class="flex2">
+                        <img class="search" src="../assets/img/search.png" alt="1" >
+                    </div>
+                </div>
+                <h3 class="sub"><a href="../pages/us.html" class="item">ABOUT US</a></h3>
+                <div class="dropdown">
+                    <h3 class="sub"><a href="produce.html" class="item">商品分類</a></h3>
+                    <div class="dropdown-content">
+                        <a href="../pages/produce.html">All Produces</a>
+                        <a href="../pages/necklace.html">Necklace項鍊</a>
+                        <a href="../pages/bracelet.html">Bracelet手鍊</a>
+                        <a href="../pages/earring.html">Earring耳飾</a>
+                        <a href="../pages/ring.html">Ring戒指</a>
+                    </div>
+                </div>
+              <h3 class="sub"><a href="../pages/cart.html" class="item">購物車</a></h3>
+              <a href="../pages/login.html"><button class="btn">會員中心</button></a>
+            </div>
+        </div>
+      </header>
+
+  <section>
+    <h1 class="title">會員中心</h1>
+    <div class="flex_row">
+        <button class="btn" onclick="showSection('personal-info')">個人資訊</button>
+        <button class="btn" onclick="showSection('order-info')">訂單資訊</button>
+        <button class="btn" onclick="showSection('history-review')">歷史評論</button>
+    </div>
+
+    <div id="personal-info" class="content_box1">
+        <div class="flex_col1">
+            <div class="flex_row">
+                <img class="image" src="../assets/img/person.png" alt="person" />
+                <h1 class="title">Personal Information</h1>
+            </div>
+            <div class="flex_col2">
+                <div class="flex_col3">
+                    <h1 class="t01">用戶名</h1>
+                    <div class="rect"></div>
+                </div>
+                <div class="flex_col3">
+                    <h1 class="t01">生日</h1>
+                    <div class="rect"></div>
+                </div>
+                <div class="flex_col3">
+                    <h1 class="t01">地址</h1>
+                    <div class="rect"></div>
+                </div>
+                <div class="flex_col3">
+                    <h1 class="t01">行動電話</h1>
+                    <div class="rect"></div>
+                </div>
+                <div class="flex_col3">
+                    <h1 class="t01">電子郵件</h1>
+                    <div class="rect"></div>
+                </div>
+                <div class="flex_col3">
+                    <h1 class="t01">密碼</h1>
+                    <div class="rect"></div>
+                </div>
+            </div>
+            <div class="log-out">
+                <button class="bth">會員登出</button>
+                <button class="bth">後台登出</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="order-info" class="content_box2" style="display:none;">
+        <div class="flex_col">
+          <div class="row">
+            <img src="../assets/img/list.png" alt="list">
+            <h1 class="top">Order Information</h1>
+          </div>
+          <div class="flex_col1">
+              <div class="flex_row">
+                <h1 class="title">2024/6/15</h1>
+                <h1 class="title">訂單狀態：已送達</h1>
+              </div>
+              <div class="box">
+                    <div class="flex_col2">
+                        <div class="flex_row1">
+                            <img src="../assets/img/ring/r1-1.JPG" alt="" />
+                            <div class="flex_row2">
+                                <h1 class="title1">純銀雙層編織戒指</h1>
+                                <h1 class="title1">數量：1</h1>
+                                <h1 class="title1">NT$390</h1>
+                            </div>
+                        </div>
+                        <div class="flex_row1">
+                            <img src="../assets/img/bracelet/b2-1.PNG" alt="" />
+                            <div class="flex_row2">
+                                <h1 class="title1">高級感珍珠手鍊</h1>
+                                <h1 class="title1">數量：1</h1>
+                                <h1 class="title1">NT$880</h1>
+                            </div>
+                        </div>
+                        <hr class="line" size="1" />
+                        <div class="flex_row3">
+                            <h3 class="subtitle">訂單編號：00001130002</h3>
+                            <div class="flex_row4">
+                                <h1 class="title2">TOTAL:</h1>
+                                <h1 class="title2">NT$1270</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex_col1">
+                <div class="flex_row">
+                    <h1 class="title">2024/4/17</h1>
+                    <h1 class="title">訂單狀態：已送達</h1>
+                </div>
+                <div class="box">
+                    <div class="flex_col2">
+                        <div class="flex_row1">
+                            <img src="../assets/img/new/n6.PNG" alt="極簡素圈&amp;珍珠戒指組合" />
+                            <div class="flex_row2">
+                                <h1 class="title1">極簡素圈&amp;珍珠戒指組合</h1>
+                                <h1 class="title1">數量：1</h1>
+                                <h1 class="title1">NT$550</h1>
+                            </div>
+                        </div>
+                        <hr class="line" size="1" />
+                        <div class="flex_row3">
+                            <h3 class="subtitle">訂單編號：00001130001</h3>
+                            <div class="flex_row4">
+                                <h1 class="title2">TOTAL:</h1>
+                                <h1 class="title2">NT$550</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="history-review" class="content_box3" style="display:none;">
+      <div class="row">
+        <img src="../assets/img/comment.png" alt="comment">
+        <h1 class="top">History Review</h1>
+      </div>
+      <div class="box">
+        <div class="flex_row">
+          <img src="../assets/img/ring/r1-1.JPG" alt="alt text" />
+          <h1 class="title">******************</h1>
+          <h1 class="title">2024/5/1</h1>
+        </div>
+      </div>
+      <div class="box">
+        <div class="flex_row">
+          <img src="../assets/img/bracelet/b1-1.PNG" alt="alt text" />
+          <h1 class="title">******************</h1>
+          <h1 class="title">2024/5/1</h1>
+        </div>
+      </div>
+      <div class="box">
+        <div class="flex_row">
+          <img src="../assets/img/new/n6.PNG" alt="alt text" />
+          <h1 class="title">******************</h1>
+          <h1 class="title">2024/5/1</h1>
+        </div>               
+      </div>
+</section>
+
+<footer>
+        <div class="flex">
+            <div class="flex1">
+                <h1 class="title">Maisie</h1>
+            </div>
+            <div class="flex2">
+                <a href="../pages/contant.html">
+                    <h2 class="title02">CONTACT US</h2>
+                </a>
+                <div class="flex_col">
+                    <div class="flex1_1">
+                        <img src="../assets/img/ins.png" alt="1">
+                        <h5 class="highlight">Maisie_Accessories</h5>
+                    </div>
+                    <div class="flex1_1">
+                        <img src="../assets/img/phone.png" alt="2">
+                        <h5 class="highlight">0800-000-000</h5>
+                    </div>
+                    <div class="flex1_1">
+                        <img src="../assets/img/email.png" alt="3">
+                        <h5 class="highlight"><a href="mailto:MaisieAccessories@gmail.com">MaisieAccessories@gmail.com</a></h5>
+                    </div>
+                    <div class="flex1_1">
+                        <img src="../assets/img/map.png" alt="4">
+                        <h5 class="highlight"><a href="https://maps.app.goo.gl/SV7Erzre8KS6aKP39" target="_blank">桃園市中壢區中北路200號</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="flex3">
+                <h2 class="title02">SERVICE</h2>
+                <div class="flex_col">
+                    <h5 class="highlight">飾品保養</h5>
+                    <h5 class="highlight">付款與配送</h5>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+    <script>
+      function showSection(sectionId) {
+          document.getElementById('personal-info').style.display = 'none';
+          document.getElementById('order-info').style.display = 'none';
+          document.getElementById('history-review').style.display = 'none';
+          document.getElementById(sectionId).style.display = 'block';
+      }
+  </script>
+</body>
+</html>

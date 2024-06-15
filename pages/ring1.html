@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maisie-Ring</title>
+    <link rel="stylesheet" href="../assets/css/hf.css">
+    <link rel="stylesheet" href="../assets/css/product.css">
+</head>
+<body>
+    <header>
+        <div class="flex">
+          <h1 class="title"><a href="../pages/index.html">Maisie</a></h1>
+            <div class="flex1">
+                <div class="box">
+                    <div class="flex2">
+                        <img class="search" src="../assets/img/search.png" alt="1" >
+                    </div>
+                </div>
+                <h3 class="sub"><a href="../pages/us.html" class="item">ABOUT US</a></h3>
+                <div class="dropdown">
+                    <h3 class="sub"><a href="produce.html" class="item">商品分類</a></h3>
+                    <div class="dropdown-content">
+                        <a href="../pages/produce.html">All Produces</a>
+                        <a href="../pages/necklace.html">Necklace項鍊</a>
+                        <a href="../pages/bracelet.html">Bracelet手鍊</a>
+                        <a href="../pages/earring.html">Earring耳飾</a>
+                        <a href="../pages/ring.html">Ring戒指</a>
+                    </div>
+                </div>
+              <h3 class="sub"><a href="../pages/cart.html" class="item">購物車</a></h3>
+              <a href="../pages/login.html"><button class="btn">會員中心</button></a>
+            </div>
+        </div>
+      </header>
+      
+    <main>
+        <div class="container">
+            <section class="section product-section">
+                <div class="image-container">
+                    <button class="nav-button left" onclick="showPreviousImage()">&#8249;</button>
+                    <img src="../assets/img/ring/r1-1.JPG" class="image active" alt="ring1-1">
+                    <img src="../assets/img/ring/r1-2.JPG" class="image" alt="ring1-2">
+                    <button class="nav-button right" onclick="showNextImage()">&#8250;</button>
+                </div>
+                <div class="product-info">
+                    <h2>編織線條戒指</h2>
+                    <p class="price">$390</p>
+                    <p class="description">材質：純銀</p>
+                    <p class="stock">庫存</p>
+                    <div class="quantity-control-container">
+                        <div class="quantity-selector">
+                            <button onclick="changeQuantity(-1)">-</button>
+                            <input type="text" id="quantity" value="1" readonly>
+                            <button onclick="changeQuantity(1)">+</button>
+                        </div>
+                        <button class="add-to-cart">加入購物車</button>
+                    </div>
+                </div>
+            </section>
+            <section class="review">
+                <div class="review-board">
+                    <h2>商品評論</h2>
+                    <div class="review-item">
+                        <div class="user">
+                            <img src="../assets/img/person.png" alt="user">
+                            <span>hyuan</span>
+                        </div>
+                        <div class="comment">設計獨特，非常時尚，但尺寸有點偏大~</div>
+                        <div class="stars">
+                            <span>★★★★★</span>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="user">
+                            <img src="../assets/img/person.png" alt="user">
+                            <span>ccdas</span>
+                        </div>
+                        <div class="comment">編織設計很精美，佩戴起來很舒適，但價格稍微有點高</div>
+                        <div class="stars">
+                            <span>★★★★☆</span>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="user">
+                            <img src="../assets/img/person.png" alt="user">
+                            <span>moon</span>
+                        </div>
+                        <div class="comment">編織細節很細膩，顏色有金色一定超美</div>
+                        <div class="stars">
+                            <span>★★★★☆</span>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="user">
+                            <img src="../assets/img/person.png" alt="user">
+                            <span>yellow</span>
+                        </div>
+                        <div class="comment">有個性，適合日常佩戴</div>
+                        <div class="stars">
+                            <span>★★★★☆</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="recommendation">
+                <h2>推薦商品</h2>
+                <div class="recommendation-container">
+                    <div class="recommendation-item">
+                        <img src="../assets/img/ring/r4.PNG" alt="recommendation1">
+                        <p>項鍊</p>
+                        <p>$780</p>
+                    </div>
+                    <div class="recommendation-item">
+                        <img src="../assets/img/necklace/n4.PNG" alt="recommendation2">
+                        <p>項鍊</p>
+                        <p>$780</p>
+                    </div>
+                    <div class="recommendation-item">
+                        <img src="../assets/img/earring/e4.JPG" alt="recommendation3">
+                        <p>耳飾</p>
+                        <p>$350</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+<footer>
+        <div class="flex">
+            <div class="flex1">
+                <h1 class="title">Maisie</h1>
+            </div>
+            <div class="flex2">
+                <a href="../pages/contant.html">
+                    <h2 class="title02">CONTACT US</h2>
+                </a>
+                <div class="flex_col">
+                    <div class="flex1_1">
+                        <img src="../assets/img/ins.png" alt="1">
+                        <h5 class="highlight">Maisie_Accessories</h5>
+                    </div>
+                    <div class="flex1_1">
+                        <img src="../assets/img/phone.png" alt="2">
+                        <h5 class="highlight">0800-000-000</h5>
+                    </div>
+                    <div class="flex1_1">
+                        <img src="../assets/img/email.png" alt="3">
+                        <h5 class="highlight"><a href="mailto:MaisieAccessories@gmail.com">MaisieAccessories@gmail.com</a></h5>
+                    </div>
+                    <div class="flex1_1">
+                        <img src="../assets/img/map.png" alt="4">
+                        <h5 class="highlight"><a href="https://maps.app.goo.gl/SV7Erzre8KS6aKP39" target="_blank">桃園市中壢區中北路200號</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="flex3">
+                <h2 class="title02">SERVICE</h2>
+                <div class="flex_col">
+                    <h5 class="highlight">飾品保養</h5>
+                    <h5 class="highlight">付款與配送</h5>
+                </div>
+            </div>
+        </div>
+      </footer>
+    <script src="../assets/js/product.js"></script>
+</body>
+</html>
+ 
